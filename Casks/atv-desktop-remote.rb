@@ -9,7 +9,7 @@ cask "atv-desktop-remote" do
 
   livecheck do
     url "https://github.com/bsharper/atv-desktop-remote/"
-    strategy ":github_latest"
+    strategy :github_latest
   end
 
   app "ATV Remote.app"
