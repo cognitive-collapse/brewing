@@ -14,4 +14,13 @@ cask "szcontext" do
 
   app "SzContext.app"
 
+  zap trash: [
+  "~/Library/Application Scripts/LQ3C7Y6F8J.com.roadtodream.SzContextXPCHelper",
+  "~/Library/Application Scripts/com.roadtodream.SzContext",
+  "~/Library/Application Scripts/com.roadtodream.SzContext.SzContextFinderSyncExtension",
+  "~/Library/Containers/LQ3C7Y6F8J.com.roadtodream.SzContextXPCHelper",
+  "~/Library/Containers/com.roadtodream.SzContext",
+  "~/Library/Containers/com.roadtodream.SzContext.SzContextFinderSyncExtension",
+]
+  
 end
