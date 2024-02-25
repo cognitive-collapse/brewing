@@ -1,5 +1,5 @@
 cask "atv-desktop-remote" do
-  version "1.4"
+  version "1.1.1"
   sha256 "8d386095a2c214d0a1e93a2a1b5ede645f8ce4cd4ac65632cf7ecf21e758356e"
 
   url "https://github.com/bsharper/atv-desktop-remote/releases/download/v#{version}/ATV.Remote-#{version}-arm64.dmg"
