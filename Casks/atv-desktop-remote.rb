@@ -14,4 +14,8 @@ cask "atv-desktop-remote" do
 
   app "ATV Remote.app"
 
+  zap trash: [
+  "~/Library/Application Support/ATV Remote",
+]
+  
 end
