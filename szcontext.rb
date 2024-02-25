@@ -9,7 +9,7 @@ cask "szcontext" do
 
   livecheck do
     url "https://github.com/RoadToDream/SzContext"
-    strategy ":github_latest"
+    strategy :github_latest
   end
 
   app "SzContext.app"
